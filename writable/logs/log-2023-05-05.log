@@ -1,0 +1,1026 @@
+CRITICAL - 2023-05-05 15:45:09 --> Class "App\Models\AudioModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 15:45:57 --> Undefined variable $images
+in APPPATH\Views\content\home.php on line 6.
+ 1 APPPATH\Views\content\home.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $images', 'APPPATH\\Views\\content\\home.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 15:46:35 --> Class "App\Models\AudioModel" not found
+in APPPATH\Controllers\Search.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Search->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 16:24:38 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 16:26:21 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 16:26:35 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 16:28:08 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 16:30:14 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 16:30:31 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 16:40:03 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 17:07:02 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 17:07:57 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 17:10:07 --> file_get_contents(C:\xampp\htdocs\extracredit\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\extracredit\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 24)
+ 2 APPPATH\Controllers\Upload.php(24): file_get_contents('FCPATH\\public/uploads/8088c790-b3ba-11ed-8cf0-fd92f2c9ed50.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 17:44:55 --> Cannot use object of type stdClass as array
+in APPPATH\Models\JsonModel.php on line 28.
+ 1 APPPATH\Controllers\Upload.php(32): App\Models\JsonModel->saveJson(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 17:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 17:49:03 --> Illegal offset type
+in SYSTEMPATH\Session\Session.php on line 486.
+ 1 APPPATH\Controllers\Upload.php(32): CodeIgniter\Session\Session->set(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 17:52:41 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Upload.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 17:55:28 --> Cannot use object of type stdClass as array
+in APPPATH\Models\JsonModel.php on line 28.
+ 1 APPPATH\Controllers\Upload.php(32): App\Models\JsonModel->saveJson(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 17:56:38 --> Cannot use object of type stdClass as array
+in APPPATH\Models\JsonModel.php on line 28.
+ 1 APPPATH\Controllers\Upload.php(32): App\Models\JsonModel->saveJson(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 17:59:01 --> Undefined variable $data
+in APPPATH\Views\content\home.php on line 11.
+ 1 APPPATH\Views\content\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\content\\home.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('content/home', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('content/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 17:59:28 --> Invalid file: "/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('C:\\', [], true)
+ 3 APPPATH\Controllers\Upload.php(33): view('C:\\', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 18:00:08 --> Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Upload.php(33): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 18:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 18:13:47 --> "Y-m-d\TH:i:sO" is not a valid datetime format
+in SYSTEMPATH\I18n\TimeTrait.php on line 243.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-m-d\\TH:i:sO')
+ 2 APPPATH\Models\JsonModel.php(30): CodeIgniter\I18n\Time::createFromFormat('Y-m-d\\TH:i:sO', '2023-02-23T20:42:23.017Z')
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 18:19:12 --> Undefined array key "n"
+in APPPATH\Models\SenderModel.php on line 26.
+ 1 APPPATH\Models\SenderModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "n"', 'APPPATH\\Models\\SenderModel.php', 26)
+ 2 APPPATH\Models\MessageModel.php(26): App\Models\SenderModel->getSender([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages([...], 0)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 18:24:20 --> Undefined array key "n"
+in APPPATH\Models\SenderModel.php on line 26.
+ 1 APPPATH\Models\SenderModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "n"', 'APPPATH\\Models\\SenderModel.php', 26)
+ 2 APPPATH\Models\MessageModel.php(24): App\Models\SenderModel->getSender([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages([...], 0)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 18:26:53 --> mysqli_sql_exception: Unknown column 't' in 'where clause' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\extracredit\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\extracredit\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\extracredit\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\extracredit\app\Models\SenderModel.php(27): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\extracredit\app\Models\MessageModel.php(24): App\Models\SenderModel->getSender(Array)
+#8 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages(Array, 0)
+#9 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#10 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#11 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-05 18:26:53 --> Unknown column 't' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `visitors`
+WHERE `t` = :t:
+AND `n` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\SenderModel.php(27): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Models\MessageModel.php(24): App\Models\SenderModel->getSender([...])
+ 6 APPPATH\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages([...], 0)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 18:27:48 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\extracredit\system\Model.php on line 267
+in SYSTEMPATH\Database\BaseResult.php on line 382.
+ 1 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\SenderModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Models\MessageModel.php(24): App\Models\SenderModel->getSender([...])
+ 5 APPPATH\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages([...], 0)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 18:31:14 --> Call to undefined method App\Models\SenderModel::whereNull
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Models\SenderModel.php(28): CodeIgniter\Model->__call('whereNull', [...])
+ 2 APPPATH\Models\MessageModel.php(24): App\Models\SenderModel->getSender([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages([...], 0)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 18:34:09 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\extracredit\system\Model.php on line 267
+in SYSTEMPATH\Database\BaseResult.php on line 382.
+ 1 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\SenderModel.php(28): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Models\MessageModel.php(24): App\Models\SenderModel->getSender([...])
+ 5 APPPATH\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages([...], 0)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 18:35:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`jsonfileId`) REFERENCES `jsonfiles` (`id`)) in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\xampp\htdocs\extracredit\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\extracredit\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\extracredit\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\extracredit\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\extracredit\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\extracredit\app\Models\MessageModel.php(39): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages(Array, 0)
+#10 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#11 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#12 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-05 18:35:51 --> Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`jsonfileId`) REFERENCES `jsonfiles` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`senderId`, `type`, `time`, `msg`, `jsonfileId`) VALUES (:senderId:, :type:, :time:, :msg:, :jsonfileId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\MessageModel.php(39): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages([...], 0)
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 18:38:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`jsonfileId`) REFERENCES `jsonfiles` (`id`)) in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\xampp\htdocs\extracredit\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\extracredit\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\extracredit\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\extracredit\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\extracredit\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\extracredit\app\Models\MessageModel.php(39): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages(Array, 0)
+#10 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#11 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#12 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-05 18:38:38 --> Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`jsonfileId`) REFERENCES `jsonfiles` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`senderId`, `type`, `time`, `msg`, `jsonfileId`) VALUES (:senderId:, :type:, :time:, :msg:, :jsonfileId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\MessageModel.php(39): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Upload.php(34): App\Models\MessageModel->saveMessages([...], 0)
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 18:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 18:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 19:59:24 --> mysqli_sql_exception: Table 'extra_credit.mytable' doesn't exist in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO myt...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO myt...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO myt...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(34): CodeIgniter\Database\BaseConnection->query('INSERT INTO myt...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(41): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-05 19:59:24 --> Table 'extra_credit.mytable' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(34): CodeIgniter\Database\BaseConnection->query('INSERT INTO mytable (id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Upload.php(41): App\Models\VisitorModel->saveVisitor([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 19:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 19:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:06:32 --> mysqli_sql_exception: Unknown column 'type' in 'field list' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#5 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-05 20:06:32 --> Unknown column 'type' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JsonModel.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors (id, type, pageId, messageCount, chatDuration,
+         rating, createdOn, domain, visitorId, locationId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:12:49 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`jsonfiles`, CONSTRAINT `fk_visitorId` FOREIGN KEY (`visitorId`) REFERENCES `visitors` (`id`)) in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO jso...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO jso...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO jso...')
+#3 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO jso...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#5 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-05 20:12:49 --> Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`jsonfiles`, CONSTRAINT `fk_visitorId` FOREIGN KEY (`visitorId`) REFERENCES `visitors` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JsonModel.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO jsonfiles (id, type, pageId, messageCount, chatDuration,
+         rating, createdOn, domain, visitorId, locationId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:16:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`jsonfiles`, CONSTRAINT `fk_visitorId` FOREIGN KEY (`visitorId`) REFERENCES `visitors` (`id`)) in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO jso...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO jso...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO jso...')
+#3 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO jso...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#5 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-05 20:16:08 --> Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`jsonfiles`, CONSTRAINT `fk_visitorId` FOREIGN KEY (`visitorId`) REFERENCES `visitors` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JsonModel.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO jsonfiles (id, type, pageId, messageCount, chatDuration,
+         rating, createdOn, domain, visitorId, locationId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:20:31 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 20:20:31 --> Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:21:09 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 20:21:09 --> Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:23:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`jsonfiles`, CONSTRAINT `fk_visitorId` FOREIGN KEY (`visitorId`) REFERENCES `visitors` (`id`)) in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO jso...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO jso...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO jso...')
+#3 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(49): CodeIgniter\Database\BaseConnection->query('INSERT INTO jso...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#5 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-05 20:23:44 --> Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`jsonfiles`, CONSTRAINT `fk_visitorId` FOREIGN KEY (`visitorId`) REFERENCES `visitors` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JsonModel.php(49): CodeIgniter\Database\BaseConnection->query('INSERT INTO jsonfiles (id, type, pageId, messageCount, chatDuration,
+         rating, createdOn, domain, visitorId, locationId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:24:10 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 20:24:10 --> Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:25:22 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`jsonfiles`, CONSTRAINT `fk_visitorId` FOREIGN KEY (`visitorId`) REFERENCES `visitors` (`id`)) in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO jso...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO jso...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO jso...')
+#3 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(49): CodeIgniter\Database\BaseConnection->query('INSERT INTO jso...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#5 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-05 20:25:22 --> Cannot add or update a child row: a foreign key constraint fails (`extra_credit`.`jsonfiles`, CONSTRAINT `fk_visitorId` FOREIGN KEY (`visitorId`) REFERENCES `visitors` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\JsonModel.php(49): CodeIgniter\Database\BaseConnection->query('INSERT INTO jsonfiles (id, type, pageId, messageCount, chatDuration,
+         rating, createdOn, domain, visitorId, locationId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:26:13 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 20:26:13 --> Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 20:32:04 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\extracredit\system\Model.php on line 267
+in SYSTEMPATH\Database\BaseResult.php on line 382.
+ 1 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\SenderModel.php(30): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Models\MessageModel.php(24): App\Models\SenderModel->getSender([...])
+ 5 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], '3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 20:36:45 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\extracredit\system\Model.php on line 267
+in SYSTEMPATH\Database\BaseResult.php on line 382.
+ 1 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\SenderModel.php(30): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Models\MessageModel.php(24): App\Models\SenderModel->getSender([...])
+ 5 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], '3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:39:29 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\xampp\htdocs\extracredit\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\extracredit\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\extracredit\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\extracredit\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\extracredit\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\extracredit\app\Models\MessageModel.php(39): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages(Array, '3dd04e20-b3a9-1...')
+#10 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#11 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#12 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-05 20:39:29 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`senderId`, `type`, `time`, `msg`, `jsonfileId`) VALUES (:senderId:, :type:, :time:, :msg:, :jsonfileId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\MessageModel.php(39): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], '3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:46:26 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\xampp\htdocs\extracredit\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\extracredit\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\extracredit\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\extracredit\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\extracredit\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\extracredit\app\Models\MessageModel.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages(Array, '3dd04e20-b3a9-1...')
+#10 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#11 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#12 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-05 20:46:26 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`senderId`, `type`, `time`, `msg`, `jsonfileId`) VALUES (:senderId:, :type:, :time:, :msg:, :jsonfileId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\MessageModel.php(40): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], '3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 20:49:18 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\extracredit\system\Model.php on line 267
+in SYSTEMPATH\Database\BaseResult.php on line 382.
+ 1 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\SenderModel.php(26): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Models\MessageModel.php(25): App\Models\SenderModel->getSender([...])
+ 5 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], '8088c790-b3ba-11ed-8cf0-fd92f2c9ed50')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 20:51:13 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 20:51:13 --> Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 20:51:43 --> Call to undefined method App\Models\SenderModel::construct
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Models\SenderModel.php(12): CodeIgniter\Model->__call('construct', [])
+ 2 APPPATH\Models\MessageModel.php(23): App\Models\SenderModel->__construct()
+ 3 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], '8088c790-b3ba-11ed-8cf0-fd92f2c9ed50')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 20:52:38 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 20:52:38 --> Duplicate entry '6217dc581ffac05b1d7b96d4-10rj3CLx0JskKhArtCwBn' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 20:53:12 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\xampp\htdocs\extracredit\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\extracredit\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\extracredit\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\extracredit\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\extracredit\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\extracredit\app\Models\MessageModel.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages(Array, '8088c790-b3ba-1...')
+#10 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#11 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#12 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-05 20:53:13 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`senderId`, `type`, `time`, `msg`, `jsonfileId`) VALUES (:senderId:, :type:, :time:, :msg:, :jsonfileId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\MessageModel.php(40): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], '8088c790-b3ba-11ed-8cf0-fd92f2c9ed50')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 20:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 22:03:31 --> Undefined array key "msg"
+in APPPATH\Models\MessageModel.php on line 40.
+ 1 APPPATH\Models\MessageModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "msg"', 'APPPATH\\Models\\MessageModel.php', 40)
+ 2 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], 'be836100-b6cf-11ed-815f-e782aada14c3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 22:05:22 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-pkX_xnRqaF3cDOuZZTjtw' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 22:05:22 --> Duplicate entry '6217dc581ffac05b1d7b96d4-pkX_xnRqaF3cDOuZZTjtw' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 22:08:35 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-pkX_xnRqaF3cDOuZZTjtw' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 22:08:35 --> Duplicate entry '6217dc581ffac05b1d7b96d4-pkX_xnRqaF3cDOuZZTjtw' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-05 22:08:45 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-pkX_xnRqaF3cDOuZZTjtw' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 22:08:45 --> Duplicate entry '6217dc581ffac05b1d7b96d4-pkX_xnRqaF3cDOuZZTjtw' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-05 22:10:40 --> Undefined array key "msg"
+in APPPATH\Models\MessageModel.php on line 38.
+ 1 APPPATH\Models\MessageModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "msg"', 'APPPATH\\Models\\MessageModel.php', 38)
+ 2 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], 'be836100-b6cf-11ed-815f-e782aada14c3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 22:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 22:13:14 --> Undefined array key "msg"
+in APPPATH\Models\MessageModel.php on line 38.
+ 1 APPPATH\Models\MessageModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "msg"', 'APPPATH\\Models\\MessageModel.php', 38)
+ 2 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], 'be836100-b6cf-11ed-815f-e782aada14c3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 22:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 22:31:13 --> Undefined variable $dataId
+in APPPATH\Models\MessageModel.php on line 48.
+ 1 APPPATH\Models\MessageModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataId', 'APPPATH\\Models\\MessageModel.php', 48)
+ 2 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], 'be836100-b6cf-11ed-815f-e782aada14c3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 22:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 22:32:44 --> mysqli_sql_exception: Column 'msg' cannot be null in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\xampp\htdocs\extracredit\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\extracredit\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\extracredit\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\extracredit\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\extracredit\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\extracredit\app\Models\MessageModel.php(51): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages(Array, 'be836100-b6cf-1...')
+#10 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#11 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#12 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-05 22:32:44 --> Column 'msg' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`senderId`, `type`, `time`, `msg`, `jsonfileId`) VALUES (:senderId:, :type:, :time:, :msg:, :jsonfileId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\MessageModel.php(51): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], 'be836100-b6cf-11ed-815f-e782aada14c3')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 22:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 22:42:41 --> mysqli_sql_exception: Duplicate entry '6217dc581ffac05b1d7b96d4-pkX_xnRqaF3cDOuZZTjtw' for key 'PRIMARY' in C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\extracredit\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO vis...', 0)
+#1 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO vis...')
+#2 C:\xampp\htdocs\extracredit\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO vis...')
+#3 C:\xampp\htdocs\extracredit\app\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO vis...', Array)
+#4 C:\xampp\htdocs\extracredit\app\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor(Array)
+#5 C:\xampp\htdocs\extracredit\app\Controllers\Upload.php(34): App\Models\JsonModel->saveJson(Array)
+#6 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(934): App\Controllers\Upload->index()
+#7 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#8 C:\xampp\htdocs\extracredit\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\extracredit\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-05 22:42:41 --> Duplicate entry '6217dc581ffac05b1d7b96d4-pkX_xnRqaF3cDOuZZTjtw' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\VisitorModel.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO visitors(id, name, email) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Models\JsonModel.php(27): App\Models\VisitorModel->saveVisitor([...])
+ 3 APPPATH\Controllers\Upload.php(34): App\Models\JsonModel->saveJson([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 22:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 22:45:08 --> Undefined array key "data"
+in APPPATH\Models\MessageModel.php on line 30.
+ 1 APPPATH\Models\MessageModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'APPPATH\\Models\\MessageModel.php', 30)
+ 2 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], 'be836100-b6cf-11ed-815f-e782aada14c3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 22:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 22:47:35 --> Undefined array key "data"
+in APPPATH\Models\MessageModel.php on line 30.
+ 1 APPPATH\Models\MessageModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'APPPATH\\Models\\MessageModel.php', 30)
+ 2 APPPATH\Controllers\Upload.php(36): App\Models\MessageModel->saveMessages([...], 'be836100-b6cf-11ed-815f-e782aada14c3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-05 22:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 22:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,21 @@
+[07-May-2023 22:19:30 UTC] PHP Warning:  chdir(): open_basedir restriction in effect. File(C:\xampp\htdocs\extracredit\public\) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\xampp\htdocs\extracredit\spark on line 56
+[07-May-2023 22:19:30 UTC] PHP Warning:  require(): open_basedir restriction in effect. File(C:\xampp\htdocs\extracredit\app\Config\Paths.php) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\xampp\htdocs\extracredit\spark on line 69
+[07-May-2023 22:19:30 UTC] PHP Warning:  require(C:\xampp\htdocs\extracredit\app\Config\Paths.php): Failed to open stream: Operation not permitted in C:\xampp\htdocs\extracredit\spark on line 69
+[07-May-2023 22:19:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\extracredit\public\../app/Config/Paths.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\extracredit\spark:69
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\extracredit\spark on line 69
+[07-May-2023 22:20:04 UTC] PHP Warning:  chdir(): open_basedir restriction in effect. File(C:\xampp\htdocs\extracredit\public\) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\xampp\htdocs\extracredit\spark on line 56
+[07-May-2023 22:20:04 UTC] PHP Warning:  require(): open_basedir restriction in effect. File(C:\xampp\htdocs\extracredit\app\Config\Paths.php) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\xampp\htdocs\extracredit\spark on line 69
+[07-May-2023 22:20:04 UTC] PHP Warning:  require(C:\xampp\htdocs\extracredit\app\Config\Paths.php): Failed to open stream: Operation not permitted in C:\xampp\htdocs\extracredit\spark on line 69
+[07-May-2023 22:20:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\extracredit\public\../app/Config/Paths.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\extracredit\spark:69
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\extracredit\spark on line 69
+[07-May-2023 22:20:26 UTC] PHP Warning:  chdir(): open_basedir restriction in effect. File(C:\xampp\htdocs\extracredit\public\) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\xampp\htdocs\extracredit\spark on line 56
+[07-May-2023 22:20:26 UTC] PHP Warning:  require(): open_basedir restriction in effect. File(C:\xampp\htdocs\extracredit\app\Config\Paths.php) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\xampp\htdocs\extracredit\spark on line 69
+[07-May-2023 22:20:26 UTC] PHP Warning:  require(C:\xampp\htdocs\extracredit\app\Config\Paths.php): Failed to open stream: Operation not permitted in C:\xampp\htdocs\extracredit\spark on line 69
+[07-May-2023 22:20:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\extracredit\public\../app/Config/Paths.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\extracredit\spark:69
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\extracredit\spark on line 69

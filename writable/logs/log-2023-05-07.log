@@ -1,0 +1,471 @@
+WARNING - 2023-05-07 10:45:18 --> [DEPRECATED] DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): DateTime::createFromFormat('Y-m-d\\TH:i', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 10:45:18 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 10:56:07 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 10:58:53 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 10:58:55 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 10:58:56 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 10:58:57 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 10:59:06 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:00:02 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:02:57 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:04:58 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:05:11 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:05:45 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:06:52 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:13:24 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:42:02 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:43:21 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:43:24 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:43:40 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:44:07 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 11:44:48 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:01:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\content\chat.php on line 42.
+ 1 APPPATH\Views\content\chat.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\content\\chat.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\chat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('content/chat', [], true)
+ 5 APPPATH\Controllers\Chat.php(30): view('content/chat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:01:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\content\chat.php on line 42.
+ 1 APPPATH\Views\content\chat.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\content\\chat.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\chat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('content/chat', [], true)
+ 5 APPPATH\Controllers\Chat.php(30): view('content/chat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:01:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\content\chat.php on line 42.
+ 1 APPPATH\Views\content\chat.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\content\\chat.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content\\chat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('content/chat', [], true)
+ 5 APPPATH\Controllers\Chat.php(30): view('content/chat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:04:56 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:08:09 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:08:52 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:09:15 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:09:45 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:09:50 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:09:57 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:10:08 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A06')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:10:44 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:11:02 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:13:21 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:18:46 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:18:46 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:21:08 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:21:08 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:21:19 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:21:19 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A40%3A05&filterType=After')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:31:01 --> The route for "http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A38%3A51&filterType=After" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A38%3A51&filterType=After')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/Chat?jsonId=3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1&datetime=2023-02-23T18%3A38%3A51&filterType=After')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:39:15 --> The route for "http://localhost/extracredit/home" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/extracredit/home')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Chat.php(18): redirect('http://localhost/extracredit/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Chat->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 13:33:18 --> Class "ZipArchive" not found
+in APPPATH\Controllers\Upload.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 13:38:55 --> Class "ZipArchive" not found
+in APPPATH\Controllers\Upload.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 13:45:52 --> Undefined variable $path
+in APPPATH\Views\templates\header.php on line 67.
+ 1 APPPATH\Views\templates\header.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $path', 'APPPATH\\Views\\templates\\header.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 13:46:57 --> Undefined variable $title
+in APPPATH\Views\templates\header.php on line 15.
+ 1 APPPATH\Views\templates\header.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\templates\\header.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Upload.php(43): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 14:05:00 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('FCPATH\\writable\\uploads/C:\\xampp\\htdocs\\extracredit\\public/uploads/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('FCPATH\\writable\\uploads/C:\\xampp\\htdocs\\extracredit\\public/uploads/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\writable\\uploads/C:\\xampp\\htdocs\\extracredit\\public/uploads/', '1683493500_811a0613141cf0778999.zip')
+ 5 APPPATH\Controllers\Upload.php(39): CodeIgniter\HTTP\Files\UploadedFile->store('FCPATH\\public\\uploads')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 14:06:07 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('FCPATH\\writable\\uploads/C:\\xampp\\htdocs\\extracredit\\public/uploads/JSONSample.zip/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('FCPATH\\writable\\uploads/C:\\xampp\\htdocs\\extracredit\\public/uploads/JSONSample.zip/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\writable\\uploads/C:\\xampp\\htdocs\\extracredit\\public/uploads/JSONSample.zip/', '1683493567_b075c0e67bf3c53685d5.zip')
+ 5 APPPATH\Controllers\Upload.php(39): CodeIgniter\HTTP\Files\UploadedFile->store('FCPATH\\public/uploads/JSONSample.zip/')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 14:12:54 --> Array to string conversion
+in APPPATH\Views\templates\header.php on line 67.
+ 1 APPPATH\Views\templates\header.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\templates\\header.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Upload.php(44): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 14:13:08 --> Undefined array key "path"
+in APPPATH\Controllers\Upload.php on line 42.
+ 1 APPPATH\Controllers\Upload.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "path"', 'APPPATH\\Controllers\\Upload.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 14:39:44 --> scandir(C:\xampp\htdocs\extracredit\public/uploads/php7164.tmp\JSONSample\.DS_Store): The directory name is inval (code: 267)
+in APPPATH\Controllers\Upload.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(C:\\xampp\\htdocs\\extracredit\\public/uploads/php7164.tmp\\JSONSample\\.DS_Store): The directory name is inval (code: 267)', 'APPPATH\\Controllers\\Upload.php', 51)
+ 2 APPPATH\Controllers\Upload.php(51): scandir('FCPATH\\public\\uploads\\php7164.tmp\\JSONSample\\.DS_Store')
+ 3 APPPATH\Controllers\Upload.php(71): App\Controllers\Upload->uploadZip('FCPATH\\public\\uploads\\php7164.tmp\\JSONSample\\.DS_Store')
+ 4 APPPATH\Controllers\Upload.php(71): App\Controllers\Upload->uploadZip('FCPATH\\public\\uploads\\php7164.tmp\\JSONSample')
+ 5 APPPATH\Controllers\Upload.php(42): App\Controllers\Upload->uploadZip('FCPATH\\public\\uploads\\php7164.tmp')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 14:42:57 --> file_get_contents(3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1.json): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Upload.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1.json): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Upload.php', 63)
+ 2 APPPATH\Controllers\Upload.php(63): file_get_contents('3dd04e20-b3a9-11ed-b8d1-1de2c7e3e2f1.json')
+ 3 APPPATH\Controllers\Upload.php(71): App\Controllers\Upload->uploadZip('FCPATH\\public\\uploads\\php6428.tmp\\JSONSample\\chats\\2023\\02\\23')
+ 4 APPPATH\Controllers\Upload.php(71): App\Controllers\Upload->uploadZip('FCPATH\\public\\uploads\\php6428.tmp\\JSONSample\\chats\\2023\\02')
+ 5 APPPATH\Controllers\Upload.php(71): App\Controllers\Upload->uploadZip('FCPATH\\public\\uploads\\php6428.tmp\\JSONSample\\chats\\2023')
+ 6 APPPATH\Controllers\Upload.php(71): App\Controllers\Upload->uploadZip('FCPATH\\public\\uploads\\php6428.tmp\\JSONSample\\chats')
+ 7 APPPATH\Controllers\Upload.php(71): App\Controllers\Upload->uploadZip('FCPATH\\public\\uploads\\php6428.tmp\\JSONSample')
+ 8 APPPATH\Controllers\Upload.php(42): App\Controllers\Upload->uploadZip('FCPATH\\public\\uploads\\php6428.tmp')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 14:52:47 --> unlink(C:\xampp\htdocs\extracredit\public/uploads/JSONSample.zip): Resource temporarily unavailable
+in APPPATH\Controllers\Upload.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\extracredit\\public/uploads/JSONSample.zip): Resource temporarily unavailable', 'APPPATH\\Controllers\\Upload.php', 45)
+ 2 APPPATH\Controllers\Upload.php(45): unlink('FCPATH\\public\\uploads\\JSONSample.zip')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 14:56:10 --> unlink(C:\xampp\htdocs\extracredit\public/uploads/JSONSample.zip): Resource temporarily unavailable
+in APPPATH\Controllers\Upload.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\extracredit\\public/uploads/JSONSample.zip): Resource temporarily unavailable', 'APPPATH\\Controllers\\Upload.php', 45)
+ 2 APPPATH\Controllers\Upload.php(45): unlink('FCPATH\\public\\uploads\\JSONSample.zip')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 14:59:53 --> unlink(C:\xampp\htdocs\extracredit\public/uploads/JSONSample.zip): Resource temporarily unavailable
+in APPPATH\Controllers\Upload.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\extracredit\\public/uploads/JSONSample.zip): Resource temporarily unavailable', 'APPPATH\\Controllers\\Upload.php', 47)
+ 2 APPPATH\Controllers\Upload.php(47): unlink('FCPATH\\public\\uploads\\JSONSample.zip')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
